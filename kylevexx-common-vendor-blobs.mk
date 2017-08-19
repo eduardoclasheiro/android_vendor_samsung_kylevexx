@@ -14,7 +14,7 @@
 
 LOCAL_PATH := vendor/samsung/kylevexx
 
-ifeq ($(findstring kyleprods,$(TARGET_PRODUCT)),kyleve)
+ifeq ($(findstring kyleve,$(TARGET_PRODUCT)),kyleve)
     PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/libbrcm_ril_KYLEVE.so:system/lib/libbrcm_ril.so \
         $(LOCAL_PATH)/proprietary/lib/libril_KYLEVE.so:/system/lib/libril.so
